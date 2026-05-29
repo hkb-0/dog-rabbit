@@ -1,6 +1,6 @@
 body{
   margin:0;
-  background:#efefef;
+  background:#fff;
 
   font-family:
   "Hiragino Sans",
@@ -37,7 +37,7 @@ main{
 
   transform:translateX(-50%);
 
-  width:40vw;
+  width:60vw;
   max: width 800px;;
   min-width:400;
 
@@ -71,7 +71,7 @@ main{
 
   transform:translateX(-50%);
 
-  width:42vw;
+  width:60vw;
   max: width 800px;px;
   min: width 400px;;
 
