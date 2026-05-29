@@ -16,22 +16,31 @@ main{
 }
 #frame{
   position:absolute;
-  width:500px;
+
+  width:28vw;
+  max-width:160px;
+  min-width:90px;
 
   left:50%;
-  top:50%;
+  top:46%;
 
   transform:translate(-50%, -50%);
 }
-
 #slider{
   position:absolute;
-  left:24px;
-  top:585px;
-  width:280px;
+
+  left:50%;
+  top:62%;
+
+  transform:translateX(-50%);
+
+  width:42vw;
+  max-width:320px;
+  min-width:180px;
 
   appearance:none;
   -webkit-appearance:none;
+
   height:18px;
   background:transparent;
 }
@@ -54,14 +63,18 @@ main{
 
 .labels{
   position:absolute;
-  left:24px;
-  top:618px;
-  width:280px;
+
+  left:50%;
+  top:65%;
+
+  transform:translateX(-50%);
+
+  width:42vw;
+  max-width:320px;
+  min-width:180px;
 
   display:flex;
   justify-content:space-between;
 
   font-size:8px;
-  font-weight:bold;
-  letter-spacing:-0.04em;
 }
