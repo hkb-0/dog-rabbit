@@ -17,9 +17,9 @@ main{
 #frame{
   position:absolute;
 
-  width:28vw;
-  max-width:160px;
-  min-width:90px;
+  width:42vw;
+  max-width:260px;
+  min-width:140px;
 
   left:50%;
   top:46%;
@@ -34,9 +34,9 @@ main{
 
   transform:translateX(-50%);
 
-  width:42vw;
-  max-width:320px;
-  min-width:180px;
+  width:52vw;
+  max-width:420px;
+  min-width:220px;
 
   appearance:none;
   -webkit-appearance:none;
