@@ -46,7 +46,10 @@ main{
 
   height:44px;
   background:transparent;
+
+  touch-action:pan-x;
 }
+
 #slider::-webkit-slider-runnable-track{
   height:3px;
   background:#111;
@@ -55,11 +58,12 @@ main{
 #slider::-webkit-slider-thumb{
   appearance:none;
   -webkit-appearance:none;
-  width:15px;
-  height:15px;
+  width:40px;
+  height:40px;
   border-radius:50%;
-  background:#000;
-  margin-top:-6px;
+  background:black;
+  box-shadow:none;
+  margin-top:-20px;
   cursor:pointer;
 }
 
