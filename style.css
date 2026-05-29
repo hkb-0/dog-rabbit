@@ -20,7 +20,7 @@ main{
 #frame{
   position:absolute;
 
-  width:80vw;
+  width:100vw;
   max: width 800px;;
   min: width 400px;;
 
@@ -37,7 +37,7 @@ main{
 
   transform:translateX(-50%);
 
-  width:60vw;
+  width:80vw;
   max: width 800px;;
   min-width:400;
 
@@ -71,12 +71,12 @@ main{
 
   transform:translateX(-50%);
 
-  width:60vw;
+  width:80vw;
   max: width 800px;px;
   min: width 400px;;
 
   display:flex;
   justify-content:space-between;
 
-  font-size:8px;
+  font-size:12px;
 }
